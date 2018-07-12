@@ -49,5 +49,8 @@ test:
           - features/**/*.feature
     - npm test:
         pwd: client
-
-        
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: karmakart
