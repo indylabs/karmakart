@@ -49,3 +49,5 @@ test:
           - features/**/*.feature
     - npm test:
         pwd: client
+
+        
